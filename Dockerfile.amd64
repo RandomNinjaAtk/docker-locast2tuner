@@ -11,7 +11,7 @@ RUN \
 	apt-get upgrade -y && \
 	apt-get install -y --no-install-recommends \
 		locast2tuner && \
-	curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -q && \
+	curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y && \
 	rm -rf \
 		/tmp/* \
 		/var/lib/apt/lists/* \
