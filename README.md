@@ -7,7 +7,7 @@
 
 [locast2tuner](https://github.com/wouterdebie/locast2tuner) - This application provides an interface between locast.org and Plex Media Server (PMS) or Emby by acting like a HDHomerun or an m3u Tuner and an XMLTV provider.
 
-[![locast2tuner](https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/img/locast2dvr.png)](https://github.com/wouterdebie/locast2tuner)
+[![locast2tuner](https://raw.githubusercontent.com/RandomNinjaAtk/unraid-templates/master/randomninjaatk/img/locast2tuner.png)](https://github.com/wouterdebie/locast2tuner)
 
 ## Supported Architectures
 
@@ -29,7 +29,7 @@ Container images are configured using the following parameters passed at runtime
 
 | Parameter | Function |
 | ---- | --- |
-| `-e L2DHOSTIP=###.###.###.###` | Host IP Address, set to the host ip address |
+| `-p 6077` | The port for the tuner access |
 | `-e L2DUSER="username"` | Locast Username |
 | `-e L2DPASS="password"` | Locast Password |
 | `-e L2DZIP=#####,#####` | Locast Zipcodes, zipcode in format: #####,#####,##### |
@@ -39,13 +39,12 @@ Don't use quotation marks in the environmental variables.
 
 ```
 docker create \
-  --name=locast2dvr \
-  --network host \
-  -e L2DHOSTIP=###.###.###.### \
+  --name=locast2tuner \
+  -p 6077 \
   -e L2DUSER=username \
   -e L2DPASS=password \
   -e L2DZIP=#####,##### \
-  randomninjaatk/locast2dvr 
+  randomninjaatk/locast2tuner 
 ```
 
 
@@ -57,14 +56,15 @@ Compatible with docker-compose v2 schemas. Don't use quotation marks in the envi
 version: "2.1"
 services:
   locast2dvr:
-    image: randomninjaatk/locast2dvr 
-    container_name: locast2dvr
-    network_mode: host
+    image: randomninjaatk/locast2tuner 
+    container_name: locast2tuner
     environment:
       - L2DHOSTIP=###.###.###.###
       - L2DUSER=username
       - L2DPASS=password
       - L2DZIP=#####,#####
+    ports:
+      - 6077:6077
     restart: unless-stopped
 ```
 
@@ -73,4 +73,4 @@ services:
 <br />
 
 # Credits
-- [locast2dvr](https://github.com/wouterdebie/locast2tuner)
+- [locast2tuner](https://github.com/wouterdebie/locast2tuner)
