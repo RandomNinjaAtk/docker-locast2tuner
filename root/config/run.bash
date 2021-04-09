@@ -16,4 +16,4 @@ echo "Project: https://github.com/RandomNinjaAtk/docker-locast2dvr"
 echo "Support: https://discord.gg/JumQXDc"
 echo "------------------------------------------------------------"
 
-locast2dvr --config /config/config --bind-address 0.0.0.0 -ds -m -d 8 -r
+locast2tuner --config /config/config --bind-address 0.0.0.0 -m -d 8 -r
