@@ -59,7 +59,6 @@ services:
     image: randomninjaatk/locast2tuner 
     container_name: locast2tuner
     environment:
-      - L2DHOSTIP=###.###.###.###
       - L2DUSER=username
       - L2DPASS=password
       - L2DZIP=#####,#####
