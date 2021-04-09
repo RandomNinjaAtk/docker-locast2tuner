@@ -18,7 +18,7 @@ RUN \
 		/var/tmp/*
 
 # copy local files
-# COPY root/ /
+COPY root/ /
 
 # set work directory
 WORKDIR /config
@@ -26,4 +26,4 @@ WORKDIR /config
 # ports and volumes
 VOLUME /config
 
-# ENTRYPOINT ["bash", "/config/run.bash"]
+ENTRYPOINT ["bash", "/config/run.bash"]
