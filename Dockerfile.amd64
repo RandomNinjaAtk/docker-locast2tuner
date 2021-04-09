@@ -5,8 +5,8 @@ ENV VERSION="0.0.01"
 
 RUN \
 	echo "************ install & upgrade packages ************" && \
-  curl -s "https://wouterdebie.github.io/ppa/KEY.gpg" | sudo apt-key add -
-  curl -o /etc/apt/sources.list.d/locast2tuner.list "https://wouterdebie.github.io/ppa/sources.list"
+	curl -s "https://wouterdebie.github.io/ppa/KEY.gpg" | sudo apt-key add - && \
+	curl -o /etc/apt/sources.list.d/locast2tuner.list "https://wouterdebie.github.io/ppa/sources.list" && \
 	apt-get update -y && \
 	apt-get upgrade -y && \
 	apt-get install -y --no-install-recommends \
