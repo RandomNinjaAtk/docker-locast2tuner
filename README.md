@@ -55,7 +55,7 @@ Compatible with docker-compose v2 schemas. Don't use quotation marks in the envi
 ```
 version: "2.1"
 services:
-  locast2dvr:
+  locast2tuner:
     image: randomninjaatk/locast2tuner 
     container_name: locast2tuner
     environment:
