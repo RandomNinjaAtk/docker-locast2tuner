@@ -16,5 +16,5 @@ echo "Project: https://github.com/RandomNinjaAtk/docker-locast2tuner"
 echo "Support: https://discord.gg/JumQXDc"
 echo "------------------------------------------------------------"
 
-locast2tuner --config /config/config -b 0.0.0.0 -m -d 8 -r
+locast2tuner --config /config/config -b 0.0.0.0 -m -d 8 -r --tuner_count 4
 exit $?
