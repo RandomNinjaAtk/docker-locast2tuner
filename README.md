@@ -1,5 +1,5 @@
 # [RandomNinjaAtk/locast2tuner](https://github.com/RandomNinjaAtk/docker-locast2tuner)
-[![Docker Build](https://img.shields.io/docker/cloud/automated/randomninjaatk/locast2dvr?style=flat-square)](https://hub.docker.com/r/randomninjaatk/locast2tuner)
+[![Docker Build](https://img.shields.io/docker/cloud/automated/randomninjaatk/locast2tuner?style=flat-square)](https://hub.docker.com/r/randomninjaatk/locast2tuner)
 [![Docker Pulls](https://img.shields.io/docker/pulls/randomninjaatk/locast2tuner?style=flat-square)](https://hub.docker.com/r/randomninjaatk/locast2tuner)
 [![Docker Stars](https://img.shields.io/docker/stars/randomninjaatk/locast2tuner?style=flat-square)](https://hub.docker.com/r/randomninjaatk/locast2tuner)
 [![Docker Hub](https://img.shields.io/badge/Open%20On-DockerHub-blue?style=flat-square)](https://hub.docker.com/r/randomninjaatk/locast2tuner)
