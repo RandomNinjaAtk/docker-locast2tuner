@@ -1,7 +1,7 @@
 FROM lsiobase/ubuntu:focal
 LABEL maintainer="RandomNinjaAtk"
 ENV TITLE="locast2tuner"
-ENV VERSION="0.0.07"
+ENV VERSION="0.1.35"
 
 RUN \
 	echo "************ install & upgrade packages ************" && \
