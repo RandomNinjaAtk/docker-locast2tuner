@@ -16,7 +16,7 @@ echo "Project: https://github.com/RandomNinjaAtk/docker-locast2tuner"
 echo "Support: https://discord.gg/JumQXDc"
 echo "------------------------------------------------------------"
 
-if [ $multiplex = "true" ] then
+if [ $multiplex = "true" ]; then
 	multiplex="-m"
 else
 	multiplex=""
