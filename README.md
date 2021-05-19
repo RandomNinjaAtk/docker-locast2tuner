@@ -33,6 +33,7 @@ Container images are configured using the following parameters passed at runtime
 | `-e L2DUSER="username"` | Locast Username |
 | `-e L2DPASS="password"` | Locast Password |
 | `-e L2DZIP=#####,#####` | Locast Zipcodes, zipcode in format: #####,#####,##### |
+| `-e multiplex=true` | Enables using a single HTTP interface multiplexing all Tuners through one interface for both streaming and EPG. |
 
 ### docker
 Don't use quotation marks in the environmental variables.
