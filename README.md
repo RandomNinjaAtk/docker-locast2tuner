@@ -44,6 +44,7 @@ docker create \
   -e L2DUSER=username \
   -e L2DPASS=password \
   -e L2DZIP=#####,##### \
+  -e multiplex=true \
   randomninjaatk/locast2tuner 
 ```
 
@@ -62,6 +63,7 @@ services:
       - L2DUSER=username
       - L2DPASS=password
       - L2DZIP=#####,#####
+      - multiplex=true
     ports:
       - 6077:6077
     restart: unless-stopped
