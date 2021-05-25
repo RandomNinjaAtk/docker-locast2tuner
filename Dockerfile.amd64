@@ -1,7 +1,7 @@
 FROM lsiobase/ubuntu:focal
 LABEL maintainer="RandomNinjaAtk"
 ENV TITLE="locast2tuner"
-ENV VERSION="0.1.39"
+ENV VERSION="0.1.40"
 ENV multiplex="true"
 
 RUN \
