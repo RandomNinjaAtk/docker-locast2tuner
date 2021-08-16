@@ -9,7 +9,7 @@ echo "override_zipcodes=\"${L2DZIP}\"" >> /config/config
 echo "------------------------------------------------------------"
 echo "|~) _ ._  _| _ ._ _ |\ |o._  o _ |~|_|_|"
 echo "|~\(_|| |(_|(_)| | || \||| |_|(_||~| | |<"
-echo "Presenets: locast2tuner"
+echo "Presents: locast2tuner"
 echo "------------------------------------------------------------"
 echo "Donate: https://github.com/sponsors/RandomNinjaAtk"
 echo "Project: https://github.com/RandomNinjaAtk/docker-locast2tuner"
