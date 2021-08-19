@@ -1,3 +1,8 @@
+# Deprecated
+
+This repository is now deprecated, will no longer be updated and is being set to archived. You were most likely using this Docker Image because it was published to the Community Applications plugin for Unraid. The Commmunity Applications store template has been updated to use the official docker image for this application. If your having trouble, please remove the docker from your Unraid System and reinstall using the latest template from the Community Applications plugin.
+
+
 # [RandomNinjaAtk/locast2tuner](https://github.com/RandomNinjaAtk/docker-locast2tuner)
 [![Docker Build](https://img.shields.io/docker/cloud/automated/randomninjaatk/locast2tuner?style=flat-square)](https://hub.docker.com/r/randomninjaatk/locast2tuner)
 [![Docker Pulls](https://img.shields.io/docker/pulls/randomninjaatk/locast2tuner?style=flat-square)](https://hub.docker.com/r/randomninjaatk/locast2tuner)
