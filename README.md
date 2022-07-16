@@ -1,16 +1,10 @@
 # Deprecated
 
-This repository is now deprecated, will no longer be updated and is being set to archived. You were most likely using this Docker Image because it was published to the Community Applications plugin for Unraid. 
-
-The Commmunity Applications store template has been updated to use the official docker image for this application. If your having trouble, please remove the docker from your Unraid System and reinstall using the latest template from the Community Applications plugin.
+This repository is now deprecated, will no longer be updated and is being set to archived.
 
 
 # [RandomNinjaAtk/locast2tuner](https://github.com/RandomNinjaAtk/docker-locast2tuner)
-[![Docker Build](https://img.shields.io/docker/cloud/automated/randomninjaatk/locast2tuner?style=flat-square)](https://hub.docker.com/r/randomninjaatk/locast2tuner)
-[![Docker Pulls](https://img.shields.io/docker/pulls/randomninjaatk/locast2tuner?style=flat-square)](https://hub.docker.com/r/randomninjaatk/locast2tuner)
-[![Docker Stars](https://img.shields.io/docker/stars/randomninjaatk/locast2tuner?style=flat-square)](https://hub.docker.com/r/randomninjaatk/locast2tuner)
-[![Docker Hub](https://img.shields.io/badge/Open%20On-DockerHub-blue?style=flat-square)](https://hub.docker.com/r/randomninjaatk/locast2tuner)
-[![Discord](https://img.shields.io/discord/747100476775858276.svg?style=flat-square&label=Discord&logo=discord)](https://discord.gg/JumQXDc "realtime support / chat with the community." )
+
 
 [locast2tuner](https://github.com/wouterdebie/locast2tuner) - This application provides an interface between locast.org and Plex Media Server (PMS) or Emby by acting like a HDHomerun or an m3u Tuner and an XMLTV provider.
 
